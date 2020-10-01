@@ -1,8 +1,10 @@
 import React from 'react';
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
+import { useDispatch } from "react-redux";
 
 import HeaderButton from "../components/HeaderButton";
+import * as placesActions from "../store/places-actions";
 
 const PlacesListScreen = props => {
   return (
