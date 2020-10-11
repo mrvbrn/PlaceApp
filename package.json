@@ -10,7 +10,7 @@
   "dependencies": {
     "@expo/vector-icons": "^10.2.1",
     "expo": "^39.0.0",
-    "react": "16.8.3",
+    "react": "16.13.1",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.0.tar.gz",
     "react-native-gesture-handler": "^1.8.0",
@@ -22,7 +22,9 @@
     "react-redux": "^7.2.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "upgrade": "^1.1.0"
+    "upgrade": "^1.1.0",
+    "expo-image-picker": "~9.1.0",
+    "expo-permissions": "~9.3.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1"

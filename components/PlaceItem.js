@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     width:70,
     height:70,
     borderRadius:35,
-    backgroundColor:'blue',
+    backgroundColor:'#ccc',
     borderColor:Colors.primary,
     borderWidth:1
   },
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     fontSize:16
   },
   title:{
-    color:'#666',
+    color:'black',
     fontSize:18,
     marginBottom:5
   }
