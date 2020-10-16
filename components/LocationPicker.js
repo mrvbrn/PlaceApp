@@ -19,6 +19,7 @@ const LocationPicker = props => {
         return;
     }
     setPickedLocation(mapPickedLocation)
+    props.onLocationTaken(mapPickedLocation)
   },[mapPickedLocation])
 
   const verifyPermissions = async () => {
@@ -41,8 +42,11 @@ const LocationPicker = props => {
     try{
       setIsFetching(true)
       const location = await Location.getCurrentPositionAsync({ timeout : 5000});
-      console.log(location)
       setPickedLocation({
+        lat:location.coords.latitude,
+        lng:location.coords.longitude
+      })
+      props.onLocationTaken({
         lat:location.coords.latitude,
         lng:location.coords.longitude
       })
