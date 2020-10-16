@@ -11,7 +11,7 @@ const PlaceItem = props => {
       <Image style={styles.image} source={{uri:props.image}}/>
       <View style={styles.infoContainer}>
         <Text style={styles.title}>{props.title}</Text>
-        <Text style={styles.address}>{props.adress}</Text>
+        <Text style={styles.address}>{props.address}</Text>
       </View>
     </TouchableOpacity>
   );
