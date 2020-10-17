@@ -29,7 +29,7 @@ export const addPlace = (title, image, location) => {
         from:image,
         to:newPath
       });
-      const dbResult = await insertPlace(
+      const dbResult = await insertPlaces(
         title,
         newPath,
         address,
